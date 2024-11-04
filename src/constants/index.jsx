@@ -1,11 +1,8 @@
-import { BellElectric, BrickWall, Shell, ShieldCheck, Unplug } from "lucide-react";
+import { HousePlug, Unplug } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
 import user3 from "../assets/profile-pictures/user3.jpg";
-import user4 from "../assets/profile-pictures/user4.jpg";
-import user5 from "../assets/profile-pictures/user5.jpg";
-import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
   { label: "Serviços", href: "#services" },
@@ -15,73 +12,37 @@ export const navItems = [
 
 export const casesCompany = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Diretor Administrativo",
+    company: "Academia Corpo e Alma",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "A equipe foi fundamental para a manutenção elétrica de nossas instalações, garantindo que todos os sistemas funcionassem de forma segura e eficiente. Eles cuidaram de cada detalhe, especialmente dos aquecedores elétricos das áreas de banho e relaxamento, que agora operam com maior confiabilidade. A expertise deles nos deu tranquilidade para oferecer um ambiente sempre confortável e seguro aos nossos alunos, mesmo nos dias mais frios. Recomendamos o trabalho profissional e comprometido dessa empresa para qualquer necessidade elétrica!",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Coordenador",
+    company: "Única",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "A Elétrica Diamond nos prestou serviços excepcionais na Única. Desde a manutenção de nossos sistemas elétricos até a instalação de novos aquecedores elétricos, a equipe mostrou profissionalismo e expertise. O trabalho foi realizado com precisão, garantindo segurança e eficiência em nossas instalações. A melhoria na infraestrutura elétrica teve um impacto direto na qualidade dos serviços que oferecemos. Recomendamos a Elétrica Diamond a qualquer empresa que busque soluções elétricas confiáveis e de alta qualidade!",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "Administração",
+    company: "Delta Lift",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
-  },
-  {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
-    image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
-  },
-  {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
-    image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
-  },
-  {
-    user: "Emily Davis",
-    company: "Synergy Systems",
-    image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "Recebemos serviços da Elétrica Diamond e ficamos impressionados com a qualidade e o profissionalismo da equipe. Eles realizaram uma análise minuciosa de nossas instalações elétricas e a instalação de sistemas novos para os elevadores. A atenção aos detalhes melhorou significativamente a segurança e eficiência. Recomendamos a Elétrica Diamond a qualquer empresa que busque soluções elétricas de alta qualidade!",
   },
 ];
 
 export const features = [
   {
-    icon: <BrickWall />,
-    text: "Contrução",
+    icon: <HousePlug />,
+    text: "Instalação e manutenção elétrica residencial",
     description:
-      "Obras e projetos, topografia, reforma residencial, reforma de apartamento, reforma comercial, pisos e revestimentos, alvenaria, estrutural, pinturas e acabamentos",
+      "Realizamos serviços completos de instalação e manutenção elétrica para sua residência. Nossa equipe é qualificada para lidar com todos os tipos de demandas, desde a instalação de sistemas elétricos e de câmeras de segurança até reparos e atualizações de instalações antigas. Garantimos segurança e eficiência em cada projeto, proporcionando tranquilidade e confiabilidade para o seu lar.",
   },
   {
     icon: <Unplug />,
-    text: "Elétrica",
+    text: "Soluções elétricas comerciais",
     description:
-      "Projeto elétrico, proj. alta/média/baixa tensão, proj. poste coluna, elétrica residencial, elétrica comercial, spda aterramento, iluminação interna e externa, estudo básico de potência, balanço de carga, tratativas com concessionária de energia.",
-  },
-  {
-    icon: <Shell />,
-    text: "Hidráulica",
-    description:
-      "Projeto hidrossanitário, instalação, encanamento, água pluvial, água esgoto, hidráulica residencial, hidráulica comercial, hidráulica predial.",
-  },
-  {
-    icon: <ShieldCheck />,
-    text: "Regularização de Imóvel junto PMSP",
-    description:
-      "Análise da edificação e seus documentos; Identificação de possíveis irregularidades construtivas comrelação às leis e normas vigentes(Código de Obras, Lei de Zoneamento, etc);Elaboração do projeto de regularização da edificação;Montagem e gerenciamento do processo para a regularizaçãoou anistia de imóveis;Obtenção do Auto de Regularização de Imóvel."
-  },
-  {
-    icon: <BellElectric />,
-    text: "AVCB/CLCB - Projeta sua edificação",
-    description:
-      "Projeto simplificado, projeto técnico completo, emissão de avcb e clcb, hidrantes, central de alarme, placas de sinalização, luz de emergência, detector de fumaça, extintores, laudos, assessoria técnica, art de responsabilidade técnica, brigada de incêndio, instalação de equipamentos.",
+      "Oferecemos uma ampla gama de serviços elétricos para necessidades variadas, seja em ambientes comerciais ou residenciais. Nossos especialistas estão prontos para realizar desde a análise e ensaios de sistemas elétricos até o desenvolvimento de projetos personalizados. Com foco em inovação e qualidade, nosso objetivo é garantir que cada instalação ou reparo atenda aos mais altos padrões de segurança e desempenho.",
   },
 ];
 
@@ -114,12 +75,12 @@ export const checklistItems = [
 
 export const contactLinks = [
   { href: "https://www.google.com/maps/place/Rua+Vict%C3%B3rio+Santim,+2776+-+Vila+Carmosina,+S%C3%A3o+Paulo+-+SP,+08290-001/@-23.5584036,-46.4496507,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce66886fb92d3b:0x361c0c44b15c3679!8m2!3d-23.5584036!4d-46.4496507!16s%2Fg%2F11cp9t79v2?entry=ttu", text: ("Rua Victório Santim, 2776, CEP: 08290-001") },
-  { href: "tel:+5511941354764", text: "(11) 94135-4764" },
-  { href: "mailto:proviewraf@icloud.com", text: "proviewraf@icloud.com" },
+  { href: "tel:+5511991446540", text: "(11) 99144-6540" },
+  { href: "mailto:eletricadiamond@hotmail.com", text: "eletricadiamond@hotmail.com" },
 ];
 
 export const socialsLinks = [
-  { href: "#eletricadiamond", text: "Instagram" },
-  { href: "#11945473366", text: "Whatsapp" },
+  { href: "https://www.instagram.com/eletricadiamond/", text: "Instagram" },
+  { href: "#11991446540", text: "Whatsapp" },
   { href: "#", text: "E-mail" },
 ];
