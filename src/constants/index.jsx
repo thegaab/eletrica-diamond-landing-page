@@ -74,13 +74,13 @@ export const checklistItems = [
 ];
 
 export const contactLinks = [
-  { href: "https://www.google.com/maps/place/Rua+Vict%C3%B3rio+Santim,+2776+-+Vila+Carmosina,+S%C3%A3o+Paulo+-+SP,+08290-001/@-23.5584036,-46.4496507,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce66886fb92d3b:0x361c0c44b15c3679!8m2!3d-23.5584036!4d-46.4496507!16s%2Fg%2F11cp9t79v2?entry=ttu", text: ("Rua Victório Santim, 2776, CEP: 08290-001") },
+  { href: "https://maps.app.goo.gl/FGaKzvNfPC2z3M679?g_st=com.google.maps.preview.copy") },
   { href: "tel:+5511991446540", text: "(11) 99144-6540" },
-  { href: "mailto:eletricadiamond@hotmail.com", text: "eletricadiamond@hotmail.com" },
+  { href: "mailto:augustoscontatos@gmail.com", text: "augustoscontatos@gmail.com" },
 ];
 
 export const socialsLinks = [
   { href: "https://www.instagram.com/eletricadiamond/", text: "Instagram" },
   { href: "#11991446540", text: "Whatsapp" },
-  { href: "#", text: "E-mail" },
+  { href: "mailto:augustoscontatos@gmail.com", text: "E-mail" },
 ];
