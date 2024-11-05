@@ -74,7 +74,7 @@ export const checklistItems = [
 ];
 
 export const contactLinks = [
-  { href: "https://maps.app.goo.gl/FGaKzvNfPC2z3M679?g_st=com.google.maps.preview.copy") },
+  { href: "https://maps.app.goo.gl/FGaKzvNfPC2z3M679?g_st=com.google.maps.preview.copy" },
   { href: "tel:+5511991446540", text: "(11) 99144-6540" },
   { href: "mailto:augustoscontatos@gmail.com", text: "augustoscontatos@gmail.com" },
 ];
