@@ -14,7 +14,7 @@ const HeroSection = () => {
         Com uma equipe de profissionais altamente qualificados, oferecemos soluções completas para todas as suas necessidades elétricas. Desde instalações residenciais até manutenções industriais, nosso compromisso é com a excelência e a satisfação do cliente. Conte conosco para serviços confiáveis, eficientes e de alta qualidade. Sua tranquilidade é nossa prioridade.
         </p>
         <div className="flex justify-center my-10">
-            <a href="#" className="bg-gradient-to-r from-yellow-300 to-yellow-700 py-3 px-4 mx-3 rounded-md">
+            <a href="#services" className="bg-gradient-to-r from-yellow-300 to-yellow-700 py-3 px-4 mx-3 rounded-md">
                 Saiba mais!
             </a>
         </div>
