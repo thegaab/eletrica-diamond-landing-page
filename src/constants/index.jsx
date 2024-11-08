@@ -7,7 +7,6 @@ import user3 from "../assets/profile-pictures/user3.jpg";
 export const navItems = [
   { label: "Serviços", href: "#services" },
   { label: "Certificados", href: "#certifications" },
-  { label: "Sobre nós", href: "#about-us" },
 ];
 
 export const casesCompany = [
